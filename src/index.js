@@ -15,7 +15,7 @@ import Planet from "./components/Planet";
 import Logo from "./components/shared/Logo";
 import "./index.css";
 
-const GRAPHQL_ENDPOINT = "yelp-hasura.herokuapp.com/v1/graphql";
+const GRAPHQL_ENDPOINT = "glad-adder-73.hasura.app/v1/graphql";
 
 const httpLink = new HttpLink({
   uri: `https://${GRAPHQL_ENDPOINT}`,
